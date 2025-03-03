@@ -5,7 +5,7 @@
 // Funkce generujSlovo generuje náhodné slovo o zadané délce
 function generujSlovo(pocetPismen)
 {
-    let pismena = "abcdefghijklmnopqrstuvwxyz";
+    const pismena = "abcdefghijklmnopqrstuvwxyz";
     let i = 0;
     let slovo = "";
     while (i < pocetPismen) {
